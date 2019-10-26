@@ -13,7 +13,9 @@ https://github.com/SwiftOnSecurity/sysmon-config
 ## Usage
 1. Download or Clone this repo and unzip as needed
 2. Open PowerShell as Administrator
-3. Type the path to the Start-SysmonInstall.ps1 script
+3. Set Execution Policy to allow scripts:
+    * Set-ExecutionPolicy -executionpolicy bypass 
+4. Type the path to the Start-SysmonInstall.ps1 script
     * PS C:\Windows\System32> C:\tools\PATH\TO\PSFile\Start-SysmonInstall.ps1
 
 

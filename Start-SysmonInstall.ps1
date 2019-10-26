@@ -126,7 +126,7 @@ catch
 
 # Test if Sysmon service is installed and cleanup install files
 
-if(Get-Service -Name 'Sysmon')
+if(Get-Service -Name 'Sysmon*')
 {
     Remove-Item $sysMonDest -Recurse
 }
